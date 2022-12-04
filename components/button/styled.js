@@ -1,4 +1,4 @@
 import styled from "styled-components";
-const StyledBotton = styled.button``
+const StyledButton = styled.button``
 
-export default StyledBotton;
+export default StyledButton;
