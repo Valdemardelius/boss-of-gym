@@ -1,9 +1,9 @@
 import React from "react";
 import StyledButton from "./styled";
-const Button=({label,children, ...rest}) => {
+const Button=({children, ...rest}) => {
     return(
         <StyledButton {...rest}>
-            {label}            
+            {children}            
         </StyledButton>
     )
     

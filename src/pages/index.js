@@ -8,9 +8,16 @@ const Index = () => {
   };
   return (
     <div>
-      <Box flexDirection="column-reverse" alignItems="center" justifyContent="flex-end" flexWrap = "nowrap" alignContent = "central" >
-        <Button label="нажми меня!" onClick={onCLickButton} />
-        <Text label="я съел инструктора нато" />
+      <Box
+        flexDirection="column-reverse"
+        alignItems="center"
+        justifyContent="flex-end"
+        flexWrap="nowrap"
+        alignContent="central"
+        background="#f23f45"
+      >
+        <Button onClick={onCLickButton}>нажми меня</Button>
+        <Text color="green">я съел инструктора нато</Text>
       </Box>
     </div>
   );
