@@ -14,10 +14,12 @@ const Index = () => {
         justifyContent="flex-end"
         flexWrap="nowrap"
         alignContent="central"
-        background="#f23f45"
+        background="#f2df12"
       >
         <Button onClick={onCLickButton}>нажми меня</Button>
-        <Text color="green">я съел инструктора нато</Text>
+        <Text color="#f345f2" fontSize="24px" fontWeight="500">
+          я съел инструктора нато
+        </Text>
       </Box>
     </div>
   );
