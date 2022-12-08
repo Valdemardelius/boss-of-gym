@@ -6,6 +6,8 @@ const StyledText = styled.span`
   font-weight: ${(props) => props.fontWeight || "normal"};
   line-height: ${(props) => props.lineHeight || "normal"};
   text-align: ${(props) => props.textAlign || "start"};
+  padding: ${(props) => props.padding || "0"};
+  margin: ${(props) => props.margin || "0"};
 `;
 
 export default StyledText;
