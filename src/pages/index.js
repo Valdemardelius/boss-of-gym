@@ -26,7 +26,14 @@ const Index = () => {
         alignContent="central"
         background="#f2df12"
       >
-        <Button onClick={onCLickButton}>нажми меня</Button>
+        <Button
+          onClick={onCLickButton}
+          border="1rem solid"
+          borderColor="green"
+          borderRadius= "15px"
+        >
+          нажми меня
+        </Button>
         <Text color="#f345f2" fontSize="24px" fontWeight="500">
           я съел инструктора нато
         </Text>

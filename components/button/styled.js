@@ -5,6 +5,7 @@ const StyledButton = styled.button`
   outline: ${(props) => props.outline || "none"};
   box-sizing: ${(props) => props.boxSizing || "border-box"};
   letter-spacing: ${(props) => props.letterspacing || "normal"};
+  border: ${(props) => props.border || "none"};
   border-color: ${(props) => props.borderColor || "none"};
   border-radius: ${(props) => props.borderRadius || "none"};
 `;
