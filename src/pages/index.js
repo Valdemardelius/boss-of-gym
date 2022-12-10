@@ -24,17 +24,19 @@ const Index = () => {
         justifyContent="flex-end"
         flexWrap="nowrap"
         alignContent="central"
-        background="#f2df12"
+        background = "#f471ff"
       >
         <Button
+          cursor="pointer"
           onClick={onCLickButton}
-          border="1rem solid"
+          boxSizing = "border-box"
           borderColor="green"
-          borderRadius= "15px"
+          fontSize= "1.7rem"
+          background="linear-gradient(130deg, #f00 93%, transparent 90%)"
         >
-          нажми меня
+          <Text color="#fff0f2" fontSize="20px" fontWeight="500" textAlign="center">Нажми меня</Text>
         </Button>
-        <Text color="#f345f2" fontSize="24px" fontWeight="500">
+        <Text color="#fff0f2" fontSize="24px" fontWeight="500">
           я съел инструктора нато
         </Text>
       </Box>

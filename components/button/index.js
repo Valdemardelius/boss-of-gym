@@ -6,6 +6,8 @@ const Button = ({ children, ...rest }) => {
 };
 
 Button.propTypes = {
+  background:PropTypes.string,
+  cursor: PropTypes.string,
   outline: PropTypes.string,
   boxSizing: PropTypes.string,
   letterspacing: PropTypes.string,
