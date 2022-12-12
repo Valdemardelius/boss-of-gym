@@ -14,3 +14,4 @@ Slider.propsTypes ={
     height: PropTypes.string,
 
 }
+export default Slider;

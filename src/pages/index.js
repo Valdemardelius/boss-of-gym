@@ -3,6 +3,7 @@ import Button from "../../components/button";
 import Text from "../../components/text";
 import Box from "../../components/box";
 import Heading from "../../components/heading";
+import Slider from "../../components/slider";
 const Index = () => {
   const onCLickButton = () => {
     console.log("1");
@@ -40,6 +41,7 @@ const Index = () => {
           я съел инструктора нато
         </Text>
       </Box>
+      <Box><Slider width="12px" height="12px" autoPlayTime = "on" >123</Slider></Box>
     </div>
   );
 };
