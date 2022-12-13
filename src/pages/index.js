@@ -4,6 +4,15 @@ import Text from "../../components/text";
 import Box from "../../components/box";
 import Heading from "../../components/heading";
 import Slider from "../../components/slider";
+const changeSlide = (direction = 1) => {
+  let slideNumber = 0;
+
+  if (slide + direction < 0) {
+    slideNumber = items.length - 1;
+  } else {
+    slideNumber = (slide + direction) % items.length;
+  }
+}
 const Index = () => {
   const onCLickButton = () => {
     console.log("1");
