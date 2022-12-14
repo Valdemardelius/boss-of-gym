@@ -13,6 +13,12 @@ const changeSlide = (direction = 1) => {
     slideNumber = (slide + direction) % items.length;
   }
 }
+useEffect(() => {
+  if (!autoPlay) return;
+
+  const interval = setInterval(() => {
+    changeSlide(1);
+  }, autoPlayTime);
 const Index = () => {
   const onCLickButton = () => {
     console.log("1");
